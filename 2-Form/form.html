@@ -9,13 +9,22 @@
     <form action="#">
       <header>
         <h1>Регистрация</h1>
-        <div>
-          <p>Уже есть аккаунт?</p>
+        <p>
+          Уже есть аккаунт?
           <a href="https://example.com" target="_blank">Войти</a>
-        </div>
+        </p>
       </header>
       <main>
-        <div>
+        <section>
+          <label for="company"></label>
+          <input
+            type="text"
+            placeholder="Моя компания"
+            name="company"
+            id="company"
+          />
+        </section>
+        <section>
           <label for="name"></label>
           <input type="text" placeholder="Имя" name="name" id="name" />
           <label for="surname"></label>
@@ -25,8 +34,8 @@
             name="surname"
             id="surname"
           />
-        </div>
-        <div>
+        </section>
+        <section>
           <label for="email"></label>
           <input
             type="email"
@@ -35,17 +44,17 @@
             id="email"
             required
           />
-        </div>
+        </section>
         <button>Зарегистрироваться <img src="" alt="Стрелочка" /></button>
       </main>
       <footer>
+        <input type="checkbox" name="condition" id="condition" />
         <label for="condition"
           >Я прочитал и принимаю
           <a href="https://example.com" target="_blank">
             Условия использования
           </a>
         </label>
-        <input type="checkbox" name="condition" id="condition" />
       </footer>
     </form>
   </body>
