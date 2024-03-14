@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="#">
-      <header>
+    <main>
+      <form action="#">
         <h1>Регистрация</h1>
         <p>
           Уже есть аккаунт?
-          <a href="https://example.com" target="_blank">Войти</a>
+          <a href="https://example.com" target="_blank" id="comeIn">Войти</a>
         </p>
-      </header>
-      <main>
         <section>
           <label for="company"></label>
           <input
@@ -45,17 +44,17 @@
             required
           />
         </section>
-        <button>Зарегистрироваться <img src="" alt="Стрелочка" /></button>
-      </main>
-      <footer>
+        <button>
+          Зарегистрироваться <img src="Arrow 1arrow.png" alt="Стрелочка" />
+        </button>
         <input type="checkbox" name="condition" id="condition" />
-        <label for="condition"
+        <label for="condition" class="condition"
           >Я прочитал и принимаю
           <a href="https://example.com" target="_blank">
             Условия использования
           </a>
         </label>
-      </footer>
-    </form>
+      </form>
+    </main>
   </body>
 </html>
