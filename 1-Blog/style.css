@@ -1,14 +1,22 @@
 body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 0 180px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+main {
+  text-align: center;
+}
+
+header {
+  margin: 72px 0;
 }
 
 a {
   color: #ffffff;
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 20px;
   text-decoration: none;
 }
@@ -18,17 +26,25 @@ ul {
   padding: 0;
 }
 
+form {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+}
 input {
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 19px;
   background-color: #1f2937;
   width: 224px;
-  height: 40px;
+  height: 36px;
   border-radius: 100px;
   border: none;
   outline: none;
+  padding: 4px 12px 4px 42px;
 }
 
 span {
@@ -40,88 +56,80 @@ span {
   box-shadow: 0px 15px 30px 0px #000000 26%;
   font-family: Source Sans Pro;
   font-size: 18px;
-  font-weight: 600;
   line-height: 23px;
   color: #ffffff;
 }
 
 h1 {
-  margin: 0px 30%;
-  font-family: Roboto;
+  margin: 0 0 30px 0;
   font-size: 24px;
-  font-weight: 400;
   line-height: 38px;
   letter-spacing: 0em;
   color: #ffffff;
+}
+footer p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #adb1b7;
   text-align: center;
 }
 
+section {
+  margin-bottom: 28px;
+}
+
+div {
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+}
+
+.date {
+  font-size: 14px;
+  line-height: 16px;
+  color: #adb1b7;
+  margin: 0 auto 14px;
+}
+
 .blogFoto {
-  margin: 0 50%;
-  width: 50px;
-  height: 50px;
-  top: 316px;
-  left: 640px;
+  margin: auto 0;
+  max-width: 50px;
+  max-height: 50px;
 }
 .nameAutor {
   color: #ffffff;
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 28px;
-  text-align: center;
+  margin: 0;
 }
 
 .speciality {
   color: #adb1b7;
-  font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
   line-height: 28px;
-  text-align: center;
+  margin: 0;
 }
 .colorFoto {
+  display: block;
   width: 896px;
   height: 594px;
-  top: 397px;
-  left: 272px;
   border-radius: 5px;
-  margin: 27px 272px 69px;
+  margin: 0 auto 68px;
 }
 
 .firstP {
   width: 708px;
   color: #ffffff;
-  font-family: Roboto;
   font-size: 20px;
-  font-weight: 400;
   line-height: 32px;
   text-align: justify;
-  margin: 0px 367px 24px;
+  margin: 0 auto 28px;
 }
 .basicP {
   width: 708px;
   text-align: justify;
   color: #ffffff;
-  font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 30px;
-  margin: 0px 367px 104px;
-}
-.date {
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #adb1b7;
-  text-align: center;
-}
-footer p {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  color: #adb1b7;
-  margin: 0 608px;
+  margin: 0 auto 48px;
 }
