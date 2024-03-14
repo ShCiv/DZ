@@ -1,11 +1,10 @@
 body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
-  width: 1440px;
-  height: 1835px;
-  margin: 0%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-ul a {
+a {
   color: #ffffff;
   font-family: Roboto;
   font-size: 16px;
@@ -14,15 +13,22 @@ ul a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 input {
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 19px;
   background-color: #1f2937;
   width: 224px;
   height: 40px;
   border-radius: 100px;
+  border: none;
+  outline: none;
 }
 
 span {
