@@ -2,8 +2,6 @@ body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   max-width: 1440px;
   margin: 0 180px;
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 main {
@@ -46,17 +44,14 @@ input {
   line-height: 19px;
   background-color: #1f2937;
   width: 224px;
-  height: 36px;
   border-radius: 100px;
   border: none;
   outline: none;
-  padding: 4px 12px 4px 42px;
+  padding: 9px 11px 12px 49px;
 }
 
 span {
-  width: 35px;
-  height: 35px;
-  padding: 5px 10px;
+  padding: 8px 12px;
   border-radius: 3px;
   background-color: #4b5563;
   box-shadow: 0px 15px 30px 0px #00000026;
@@ -85,12 +80,15 @@ footer p {
 
 section {
   margin-bottom: 28px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
 }
 
 div {
-  display: inline-block;
+  display: flex;
   text-align: justify;
-  vertical-align: top;
+  flex-direction: column;
 }
 
 .date {
@@ -142,4 +140,9 @@ div {
   font-size: 16px;
   line-height: 30px;
   margin: 0 auto 48px;
+}
+
+* {
+  font-family: "Roboto";
+  font-weight: 400;
 }
