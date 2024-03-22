@@ -2,7 +2,7 @@ body {
   background: linear-gradient(180deg, #374151 0%, #111827 100%);
   max-width: 1440px;
   margin: 0 180px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 400;
 }
 
@@ -12,6 +12,9 @@ main {
 
 header {
   margin: 72px 0;
+  display: flex;
+  gap: 77px;
+  align-items: center;
 }
 
 a {
@@ -24,9 +27,12 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  gap: 40px;
 }
 
 form {
+  margin-left: auto;
   position: relative;
 }
 
@@ -53,8 +59,8 @@ span {
   padding: 5px 10px;
   border-radius: 3px;
   background-color: #4b5563;
-  box-shadow: 0px 15px 30px 0px #000000 26%;
-  font-family: Source Sans Pro;
+  box-shadow: 0px 15px 30px 0px #00000026;
+  font-family: "Source Sans Pro";
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
@@ -63,8 +69,11 @@ span {
 h1 {
   margin: 0 0 30px 0;
   font-size: 24px;
+  font-weight: 400;
   line-height: 38px;
   letter-spacing: 0em;
+  text-align: center;
+
   color: #ffffff;
 }
 footer p {
@@ -100,6 +109,7 @@ div {
   color: #ffffff;
   font-size: 16px;
   line-height: 28px;
+
   margin: 0;
 }
 
