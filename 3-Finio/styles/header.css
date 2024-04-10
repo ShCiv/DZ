@@ -1,0 +1,58 @@
+.header {
+  background-color: var(--color-bg-blue);
+}
+
+.header__wrapper {
+  max-width: var(--layout-width);
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 24px;
+}
+
+.header__logo {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 51px;
+  color: var(--color-bg-text);
+  cursor: pointer;
+}
+
+.header__mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login {
+  background: var(--color-bg-text);
+  color: var(--color-bg-blue);
+  padding: 12px 32px;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 24px;
+  border: none;
+  border-radius: var(--border34);
+  cursor: pointer;
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.menu__item a {
+  color: var(--color-text-menu);
+  cursor: pointer;
+}
+
+.menu__item:hover a {
+  color: var(--color-bg-text);
+  cursor: pointer;
+}
