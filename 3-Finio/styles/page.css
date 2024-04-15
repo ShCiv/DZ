@@ -1,7 +1,7 @@
 .section__wrapper {
   max-width: var(--layout-width);
   margin: 0 auto;
-  padding: 50px 24px;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,7 +31,6 @@
 .convenience__wrapper {
   max-width: var(--layout-width);
   margin: 0 auto;
-  padding: 0 24px;
 }
 
 .section_img img {
@@ -93,3 +92,11 @@
   line-height: 24px;
   color: var(--color-text-fff90);
 }
+
+/* @media (max-width: 1550px) {
+  .convenience__wrapper,
+  .section__wrapper-blue,
+  .section__wrapper {
+    padding: 40px 24px;
+  }
+} */
