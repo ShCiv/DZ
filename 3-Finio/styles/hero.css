@@ -19,6 +19,7 @@
   max-width: var(--layout-width);
   margin: 0 auto;
   padding-top: 50px;
+  overflow: visible;
 }
 
 .hero-white-block {
@@ -45,13 +46,13 @@
 .hero-blue__top {
   display: flex;
   justify-content: space-between;
+  overflow: visible;
 }
 
 .hero-blue__top-left {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  flex-basis: 500px;
 }
 
 .hero-blue_h1 {
@@ -68,7 +69,14 @@
 
 .hero-blue__top-right {
   z-index: 2;
-  margin-right: -100px;
+  position: relative;
+  overflow: visible;
+  left: 100px;
+}
+
+.hero-blue__top-right img {
+  overflow: visible;
+  position: relative;
 }
 
 .hero-white-p {
