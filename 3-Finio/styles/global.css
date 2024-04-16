@@ -1,0 +1,58 @@
+:root {
+  --color-bg-text: #fff;
+
+  --color-text-fff90: #ffffff90;
+
+  --color-bg-blue: #357efe;
+  --color-bg-green: #1abc9c;
+  --color-bg-yellow: #ffc736;
+
+  --color-bg-footer: #1a1d25;
+  --color-text-footer70: #ffffff70;
+  --color-text-footer50: #ffffff50;
+  --color-solid8: #ffffff08;
+
+  --color-text-black: #000000;
+  --color-text-grey80: #4e5d7c80;
+  --color-text-grey50: #4e5d7c50;
+  --color-text-grey: #4e5d7c;
+  --color-text-fff60: #ffffff60;
+  --color-text-menu: #d7e5ff;
+
+  --color-line-grey14: #4e5d7c14;
+  --color-shadow-review: #4e5d7c29;
+
+  --border8: 8px;
+  --border16: 16px;
+  --border34: 34px;
+  --layout-width: 1440px;
+  --layout-width-min: 1392px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  min-width: 375px;
+}
+
+body {
+  background-color: var(--color-bg-text);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
