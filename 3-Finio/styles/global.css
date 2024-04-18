@@ -25,8 +25,8 @@
   --border8: 8px;
   --border16: 16px;
   --border34: 34px;
-  --layout-width: 1440px;
-  --layout-width-min: 1392px;
+  --layout-width: 1392px;
+  --layout-width-min: 1168px;
 }
 
 * {

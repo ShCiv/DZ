@@ -59,6 +59,16 @@
 
 @media (max-width: 1550px) {
   .header__wrapper {
-    padding: 0 24px;
+    padding: 40px 24px;
+  }
+}
+
+@media (max-width: 960px) {
+  .menu,
+  .header__login {
+    display: none;
+  }
+  .header__mobile-menu-button {
+    display: block;
   }
 }

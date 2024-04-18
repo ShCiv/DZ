@@ -53,3 +53,9 @@
 .footer-requisites span {
   color: var(--color-text-footer50);
 }
+
+@media (max-width: 1550px) {
+  .footer__wrapper {
+    padding: 64px 24px;
+  }
+}
